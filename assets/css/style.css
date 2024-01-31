@@ -50,6 +50,8 @@ footer{
 
  #messages {
     height: 20px;
+    margin-top: 10px;
+    font-size: 150%;
  }
  .player {
     float: left;

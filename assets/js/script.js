@@ -37,3 +37,34 @@ function playGame(playerChoice) {
     let result = checkWinner(choices[computerChoice], choices[playerChoice]);
     updateScore(result);
 }
+
+
+
+function checkWinner(computerChoice, playerChoice) {
+    if (computerChoice === playerChoice) {
+        return "tie";
+    } else if (
+        (computerChoice === "rock" && playerChoice === "scissors") ||
+        (computerChoice === "scissors" && playerChoice === "paper") ||
+        (computerChoice === "paper" && playerChoice === "rock")
+    ) {
+        return "computer";
+    } else {
+        return "player";
+    }
+}
+
+function updateScore(result) {
+    if (result === "player") {
+        playerScore.innerText = parseInt(playerScore.innerText) + 1;
+        showMessage("You win!");
+    } else if (result === "computer") {
+        computerScore.innerText = parseInt(computerScore.innerText) + 1;
+        showMessage("Computer wins!");
+    } else {
+        showMessage("It's a tie!");
+    }
+}
+function showMessage(message) {
+    messages.innerText = message;
+}
