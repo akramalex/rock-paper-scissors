@@ -72,8 +72,15 @@ function updateScore(result) {
 function showMessage(message) {
     messages.innerText = message;
 }
+/* event listener to rest game  */
 
 resetButton.addEventListener("click", resetGame);
+/**
+ * function to restgame 
+ * rest score to 0 
+ * update picture to the start one
+ * also update message 
+ */
 
 function resetGame() {
     playerScore.innerText = "0";

@@ -16,20 +16,7 @@ header {
     text-align: center;
     height: 50px;
 }
-/* footer to be at the bottom of the page */
-footer{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    box-sizing: border-box;
-    min-height: 80px;
-    padding-top: 5px;
-    text-align: center;
-    background-color: coral;
-    color: black;
-    width: 100%;
-    
-}
+
 /* game area section */
 
 .game-area {
@@ -38,6 +25,7 @@ footer{
     margin-right: auto;
     margin-top: 2%;
     text-align: center;
+    margin-bottom:200px;
     
 }
  .control {
@@ -45,20 +33,23 @@ footer{
     margin: 2px;
     width: 80px;
     height:40px;
+    margin-right: 5px; 
 
  }
 
  #messages {
     height: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 150%;
+    margin-bottom: 15px;
  }
  .player {
     float: left;
     width: 45%;
     
  }
-
+ /* rotatey player iamge */
+ 
  #player-image {
     width: 75%;
     transform: rotateY(180deg);
@@ -74,12 +65,33 @@ footer{
  width: 75%;
  }
 
- button{
-    margin-right: 5px; 
-
+ #rest-btn {
+text-align: center;
  }
- 
- 
+  /* rest button style*/
+
+  #reset-button {
+    width: 100px;
+    height:40px;
+    margin-top:20px;
+  }
+
+  /* footer to be at the bottom of the page */
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding-top: 2px;
+    text-align: center;
+    background-color: coral;
+    color: black;
+    width: 100%;
+    
+}
+ /* media quary for small screen enusre the picutre not too small */
+
  @media screen and (max-width: 650px){
     #player-image {
         width:120%;
@@ -88,4 +100,4 @@ footer{
         width: 120%;
     }
  }
- 
+
