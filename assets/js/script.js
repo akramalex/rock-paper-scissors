@@ -8,6 +8,7 @@ const playerImage = document.getElementById("player-image");
 const computerScore = document.getElementById("computer-score");
 const computerImage = document.getElementById("computer-image");
 const messages = document.getElementById("messages");
+const resetButton = document.getElementById("reset-button");
 const choices = ["rock", "paper", "scissors"];
 
 
@@ -70,4 +71,14 @@ function updateScore(result) {
 }
 function showMessage(message) {
     messages.innerText = message;
+}
+
+resetButton.addEventListener("click", resetGame);
+
+function resetGame() {
+    playerScore.innerText = "0";
+    computerScore.innerText = "0";
+    playerImage.src = "./assets/images/rock.png";
+    computerImage.src = "./assets/images/rock.png";
+    messages.innerText = "Game reset! Let's play again.";
 }

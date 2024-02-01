@@ -80,4 +80,12 @@ footer{
  }
  
  
+ @media screen and (max-width: 650px){
+    #player-image {
+        width:120%;
+    }
+    #computer-image{
+        width: 120%;
+    }
+ }
  
