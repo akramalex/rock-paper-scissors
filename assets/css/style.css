@@ -28,6 +28,8 @@ header {
     margin-bottom:200px;
     
 }
+/* game button area */ 
+
  .control {
     display: inline-block;
     margin: 2px;
@@ -36,6 +38,7 @@ header {
     margin-right: 5px; 
 
  }
+/* messages declare who won or if it is a tia ! */
 
  #messages {
     height: 20px;
@@ -43,23 +46,28 @@ header {
     font-size: 150%;
     margin-bottom: 15px;
  }
+
+ /* player game area */ 
+
  .player {
     float: left;
     width: 45%;
     
  }
  /* rotatey player iamge */
- 
+
  #player-image {
     width: 75%;
     transform: rotateY(180deg);
  }
- 
+ /* computer game area */
+
  .computer {
     float: right;
     width: 45%;
     
  }
+/* style the computer image */
 
  #computer-image{
  width: 75%;

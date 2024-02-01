@@ -14,6 +14,7 @@ const choices = ["rock", "paper", "scissors"];
 
 /**
  * add event listener to all the buttons 
+ * and handle button click
  */
 
 function handleButtonClick() {
@@ -43,7 +44,10 @@ function playGame(playerChoice) {
 }
 
 
-
+/**  
+ * function check winnder 
+ * show if statment and what  the return 
+ */
 function checkWinner(computerChoice, playerChoice) {
     if (computerChoice === playerChoice) {
         return "tie";
@@ -57,7 +61,11 @@ function checkWinner(computerChoice, playerChoice) {
         return "player";
     }
 }
-
+/** 
+ * function to update score 
+ * if the  check winner function = player update player score by +1
+ * if the check winner function = computer update computer score by +1
+ */
 function updateScore(result) {
     if (result === "player") {
         playerScore.innerText = parseInt(playerScore.innerText) + 1;
@@ -69,6 +77,11 @@ function updateScore(result) {
         showMessage("It's a tie!");
     }
 }
+
+/** 
+ * show message function also connected with the checkwinner function 
+ * if player win message show as function updatescore (showmessage)
+*/
 function showMessage(message) {
     messages.innerText = message;
 }
