@@ -135,13 +135,13 @@ The live link can be found here  [View the live project here .](https://akramale
 
 * Content 
 
-  * Game code was inspired by Love Maths [dreamstime .](https://www.dreamstime.com/free-photos) project - events listener structure with 'data-type' and results functions built based in the project's.
+  * Game code was inspired by  [Love Maths ](https://github.com/akramalex/love-maths) project - events listener structure with 'data-type' and results functions built based in the project's.
 
-  * The icons used on the game were taken from Font Awesome free icons.[dreamstime .](https://www.dreamstime.com/free-photos)
+  * The icons used on the game were taken from [Font Awesome free icons .](https://fontawesome.com/v4/icons/)
   
-  * The fonts used on the game were taken from Google Fonts.[dreamstime .](https://www.dreamstime.com/free-photos)
+  * The fonts used on the game were taken from [Google Fonts.](hhttps://fonts.google.com)
   
-  * Favicon used on the game was generated in favicon.io. [dreamstime .](https://www.dreamstime.com/free-photos)
+  * Favicon used on the game was generated in [favicon.io.  .](https://favicon.io/)
 * Media
   * The images of the hands were taken from [dreamstime .](https://www.dreamstime.com/free-photos)
 
