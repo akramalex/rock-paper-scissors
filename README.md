@@ -139,7 +139,7 @@ The live link can be found here  [View the live project here .](https://akramale
 
   * The icons used on the game were taken from [Font Awesome free icons .](https://fontawesome.com/v4/icons/)
   
-  * The fonts used on the game were taken from [Google Fonts.](hhttps://fonts.google.com)
+  * The fonts used on the game were taken from [Google Fonts.](https://fonts.google.com/)
   
   * Favicon used on the game was generated in [favicon.io.  .](https://favicon.io/)
 * Media
