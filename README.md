@@ -52,3 +52,96 @@ Research indicates that when people are familiar with each other, traditional Ro
   * The results and score are presented in a clear and user-friendly manner, ensuring that the game is not only easy to play but also easy to follow. Players can quickly understand who won and keep track of the score, making each round of the game a delightful experience.
   
  ![](assets/images/sc5p2.png)
+
+ ## Resetting the Game 
+In the Digital Arena Rock Paper Scissors game, we understand that a fresh start can be just as exciting as the first play. To provide a seamless experience, we've included a dedicated Reset Game button.
+* How it Works:
+  
+   * Game Score Reset: Clicking the Reset Game button will set the game score back to 0, allowing both players to embark on a new journey of victories.
+  
+   * Image Reset: The button doesn't just stop at resetting the score; it also gracefully reverts the game images to their initial positions. This ensures a clean slate for the next round.
+  
+  *  Ready for Round Two:
+  
+     * With a click of the Reset Game button, a cheerful message greets you: "Game reset! Let's play again." It's an invitation to start afresh, bringing an air of excitement and anticipation for the next series of Rock Paper Scissors showdowns.
+   
+
+   ![](assets/images/sc6p2.png)
+  
+## Footer 
+
+* The footer section shows the rules of Rock Paper Scissors.
+  
+*  The footer is valuable to the user because it clearly explains how the game is played.
+
+![](assets/images/sc7p2.png)
+
+## Features Left to Implement or Future Features 
+
+* Multiplayer Mode: Introduce a multiplayer option, allowing users to compete against friends or other players online.
+ 
+* Sound Effects: Add immersive sound effects to enhance the gaming experience, such as unique sounds for each game option and victory announcements.
+
+## Testing
+
+* The game has been tested on different browsers for both desktop and mobile: Chrome, Firefox, Safari
+
+* It has been confirmed all game results work as expect and they are always correct
+
+* It has been confirmed that header, options, buttons, instructions, results and footer text are all readable and easy to understand by users. 
+  
+* • I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+  
+  ![](assets/images/sc8p2.png)
+
+##  bugs 
+
+* No  bugs were found 
+   
+## Validator Testing
+
+ * HTML
+  
+   * No errors were returned when passing through the official  [W3C validator .](https://validator.w3.org/nu/?doc=https%3A%2F%2Fakramalex.github.io%2Frock-paper-scissors%2F)
+
+  
+* CSS 
+  * No errors were found when passing through the official [(Jigsaw) validator.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fakramalex.github.io%2Frock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+* Javascript 
+ 
+  
+  * No errors were found when passing through [JS Hint validator.](https://jshint.com/)
+
+
+## unfixed bugs 
+
+* No unfixed bugs
+
+## Deployment 
+
+ * The site was deployed to GitHub pages. The steps to deploy are as follows
+  
+ *  In the GitHub repository, navigate to the Settings tab
+  
+* From the source section drop-down menu, select the Master Branch
+
+* Once the master branch has been selected, the page provided the link to the completed website.
+
+The live link can be found here  [View the live project here .](https://akramalex.github.io/rock-paper-scissors/)
+
+
+## Credits 
+
+* Content 
+
+  * Game code was inspired by Love Maths [dreamstime .](https://www.dreamstime.com/free-photos) project - events listener structure with 'data-type' and results functions built based in the project's.
+
+  * The icons used on the game were taken from Font Awesome free icons.[dreamstime .](https://www.dreamstime.com/free-photos)
+  
+  * The fonts used on the game were taken from Google Fonts.[dreamstime .](https://www.dreamstime.com/free-photos)
+  
+  * Favicon used on the game was generated in favicon.io. [dreamstime .](https://www.dreamstime.com/free-photos)
+* Media
+  * The images of the hands were taken from [dreamstime .](https://www.dreamstime.com/free-photos)
+
