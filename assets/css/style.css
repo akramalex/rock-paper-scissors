@@ -38,7 +38,7 @@ header {
     margin-right: 5px; 
 
  }
-/* messages declare who won or if it is a tia ! */
+/* Messages will be displayed to declare the winner or indicate if the game ended in a tie! */
 
  #messages {
     height: 20px;
@@ -76,7 +76,7 @@ header {
  #rest-btn {
 text-align: center;
  }
-  /* rest button style*/
+  /* reset button style*/
 
   #reset-button {
     width: 100px;
@@ -84,7 +84,7 @@ text-align: center;
     margin-top:20px;
   }
 
-  /* footer to be at the bottom of the page */
+  /* Footer to be at the bottom of the page */
 footer{
     position: absolute;
     left: 0;
@@ -98,7 +98,7 @@ footer{
     width: 100%;
     
 }
- /* media quary for small screen enusre the picutre not too small */
+ /*  Media query for small screens to ensure the picture is not too small */
 
  @media screen and (max-width: 650px){
     #player-image {

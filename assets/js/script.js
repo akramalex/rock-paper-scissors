@@ -1,6 +1,6 @@
 /** 
- * Declare constants for DOM elements
- * and possible choices
+ * Declare constants for DOM elements 
+ * and possible choices.
  */
 const buttons = document.getElementsByClassName("control");
 const playerScore = document.getElementById("player-score");
@@ -13,8 +13,8 @@ const choices = ["rock", "paper", "scissors"];
 
 
 /**
- * add event listener to all the buttons 
- * and handle button click
+ * Add event listener to all the buttons 
+ * and handle button clicks.
  */
 
 function handleButtonClick() {
@@ -27,9 +27,8 @@ for (let button of buttons) {
 }
 
 /**
- * the main game function , update picture when choice and
- *  date choice value of seclected button
- * 
+ * The main game function updates the picture when a choice is made 
+ * and updates the value of the selected button. 
  */
 function playGame(playerChoice) {
 
@@ -45,8 +44,8 @@ function playGame(playerChoice) {
 
 
 /**  
- * function check winnder 
- * show if statment and what  the return 
+ * The function checks the winner using an if statement 
+ * and returns the result.
  */
 function checkWinner(computerChoice, playerChoice) {
     if (computerChoice === playerChoice) {
@@ -62,9 +61,10 @@ function checkWinner(computerChoice, playerChoice) {
     }
 }
 /** 
- * function to update score 
- * if the  check winner function = player update player score by +1
- * if the check winner function = computer update computer score by +1
+ * The function updates the score: If the 'check winner'
+ *  function determines the player as the winner, the player's score is incremented by 1.
+ * If the 'check winner' function determines the computer as the winner, 
+ * the computer's score is incremented by 1
  */
 function updateScore(result) {
     if (result === "player") {
@@ -79,20 +79,21 @@ function updateScore(result) {
 }
 
 /** 
- * show message function also connected with the checkwinner function 
- * if player win message show as function updatescore (showmessage)
+ * The 'show message' function is connected with the 'check winner'function.
+ *  If the player wins, the message is displayed,
+ *  and the 'update score' function is called.
 */
+
 function showMessage(message) {
     messages.innerText = message;
 }
-/* event listener to rest game  */
+/* event listener to reset game  */
 
 resetButton.addEventListener("click", resetGame);
 /**
- * function to restgame 
- * rest score to 0 
- * update picture to the start one
- * also update message 
+ * The function 'resetGame' resets the score to 0,
+ *  updates the picture to the initial one,
+ *  and also updates the message.
  */
 
 function resetGame() {
